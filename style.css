@@ -1,0 +1,99 @@
+@font-face{
+    font-family: 'roboto';
+    src: url(Fontes/Roboto-Regular.ttf);
+}
+@font-face{    
+    font-family: 'robolight';
+    src: url(Fontes/Montserrat-Black.ttf);
+ }    
+   body{
+       margin: 0;
+       padding: 0;
+       background-image: url(Images/bgg.jpg);
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    
+   }
+
+   .logo{
+       display: flex;
+       justify-content: center;
+       margin-top: 120px;
+   }
+
+   .primeira-parte{
+       padding-top: 15px;
+       background-color: #ccff03;
+        font-family: 'robolight';
+       color: white;
+       text-align: center;
+       margin-top: 200px;
+       height: 150px;
+   }
+ button {
+     background-color: black;
+     margin: 2px;
+     width: 240px;
+     height: 50px;
+     color: white;
+     border-style: none;
+     border-radius: 5px;
+     font-family: 'roboto';
+ }
+ .segunda-parte{
+    padding-top: 15px;
+    background-color:white;
+    font-family: 'robolight';
+    color: black;
+    text-align: center;
+    height: 500px;
+ }
+ .foto1{
+     height: 380px;
+     width: 200px;
+     background-image: url(Images/aa.jpg);
+     background-repeat:initial;
+     background-attachment: local;
+     margin-left: 250px;
+     margin-bottom: 70px;
+ }
+ .foto2{
+    height: 380px;
+    width: 200px;
+    background-image: url(Images/bb.jpg);
+    background-repeat:initial;
+    background-attachment: local;
+    margin-left: 300px;
+    
+    
+}
+.foto3{
+    height: 380px;
+    width: 200px;
+    background-image: url(Images/cc.jpg);
+    background-repeat:initial;
+    background-attachment: local;
+    margin-left: 310px;
+    margin-bottom: 70px;
+    
+}
+.terceira-parte{
+    height: 25px;
+    background-color: white;
+}
+.rodape{
+    background-color: black;
+    margin: 0; 
+}
+.wpp{
+    background-image: url(Images/wpp.png);
+    width: 100px;
+    height: 100px;
+}
+.logo2{
+    margin-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 55px;
+}
